@@ -1,0 +1,11 @@
+[package]
+authors = ["Roman A. Taycher <rtaycher1987@gmail.com>"]
+name = "simple_malloc"
+version = "0.1.0"
+
+[lib]
+crate-type = ["dylib", "staticlib"]
+#crate-type = ["staticlib"]
+
+[dependencies]
+libc = "0.2.14"
